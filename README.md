@@ -48,5 +48,5 @@ Example:
 
 ### App Images
 
-![currency_converter1.png](..%2F..%2F..%2FOneDrive%2FPictures%2Fcurrency_converter1.png)
-![currency_converter2.png](..%2F..%2F..%2FOneDrive%2FPictures%2Fcurrency_converter2.png)
+![Alt text](https://i.imgur.com/rul3KF7.png)
+![Alt text](https://i.imgur.com/7sL6VCd.png)
