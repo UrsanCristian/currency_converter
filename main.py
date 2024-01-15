@@ -13,6 +13,7 @@ data = response.json()
 
 interface = ThemedTk(theme='adapta')
 interface.title('Currency Converter')
+interface.config(bg='white')
 
 all_currencies = ["USD", "EUR", "RON", "GBP", "JPY", "MDL", "NOK", "UAH", "HUF"]
 
@@ -37,18 +38,18 @@ def convert():
 
 # Building interface
 
-number_label = ttk.Label(interface, text="Amount of currency", font=("Arial", 12))
+number_label = ttk.Label(interface, text="Amount of currency", font=("Arial", 12), background='white')
 number_insert = ttk.Entry(interface)
 
-first_currency_label = ttk.Label(interface, text="First Currency", font=("Arial", 12))
+first_currency_label = ttk.Label(interface, text="First Currency", font=("Arial", 12), background='white')
 first_currency = tkinter.StringVar(value="USD")
 first_currency_gi = ttk.Combobox(interface, textvariable=first_currency, values=all_currencies)
 
-second_currency_label = ttk.Label(interface, text="Second Currency", font=("Arial", 12))
+second_currency_label = ttk.Label(interface, text="Second Currency", font=("Arial", 12), background='white')
 second_currency = tkinter.StringVar(value="RON")
 second_currency_gi = ttk.Combobox(interface, textvariable=second_currency, values=all_currencies)
 
-result_label = ttk.Label(interface, text='Result')
+result_label = ttk.Label(interface, text='Result', background='white', font=("Arial", 14))
 convert_button = ttk.Button(interface, text='Convert', command=convert)
 
 # Setting all elements positions
